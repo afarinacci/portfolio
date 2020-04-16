@@ -1,25 +1,35 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+
+import { makeStyles } from '@material-ui/core/styles';
+import Container from '@material-ui/core/Container';
+import { Button, Paper, Grid, Typography } from '@material-ui/core';
+
+import Header from './components/Header';
+import Content from './components/Content';
+
+const useStyles = makeStyles({
+  helloThereStyle: {
+    fontWeight: 'bold',
+  },
+});
 
 function App() {
+  const classes = useStyles();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Grid container direction="column" className="App">
+      <Grid item>
+        <Header />
+      </Grid>
+      <Grid item container>
+        <Grid item xs={false} sm={2} />
+        <Grid item xs={12} sm={8}>
+          <Content />
+        </Grid>
+        <Grid item xs={false} sm={2} />
+      </Grid>
+    </Grid>
   );
 }
 
