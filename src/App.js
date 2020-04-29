@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.scss';
 
-import { makeStyles } from '@material-ui/core/styles';
+import {
+  makeStyles,
+  createMuiTheme,
+  ThemeProvider,
+} from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-import { Button, Paper, Grid, Typography } from '@material-ui/core';
+import {
+  Switch,
+  Button,
+  Paper,
+  Grid,
+  Typography,
+  CssBaseline,
+} from '@material-ui/core';
 
 import Header from './components/Header';
 import Content from './components/Content';
@@ -16,20 +27,43 @@ const useStyles = makeStyles({
 });
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
+  const theme = createMuiTheme({
+    palette: {
+      type: darkMode ? 'dark' : 'light',
+    },
+  });
   const classes = useStyles();
   return (
-    <Grid container direction="column" className="App">
-      <Grid item>
-        <Header />
-      </Grid>
-      <Grid item container>
-        <Grid item xs={false} sm={2} />
-        <Grid item xs={12} sm={8}>
-          <Content />
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+
+      <Grid container direction="column" className="App">
+        <Grid item>
+          <Header />
         </Grid>
-        <Grid item xs={false} sm={2} />
+        <Grid
+          item
+          container
+          direction="row"
+          justify="flex-end"
+          alignItems="center"
+        >
+          <Typography color="secondary">Dark Mode: </Typography>
+          <Switch
+            checked={darkMode}
+            onChange={() => setDarkMode(!darkMode)}
+          ></Switch>
+        </Grid>
+        <Grid item container>
+          <Grid item xs={false} sm={2} />
+          <Grid item xs={12} sm={8}>
+            <Content />
+          </Grid>
+          <Grid item xs={false} sm={2} />
+        </Grid>
       </Grid>
-    </Grid>
+    </ThemeProvider>
   );
 }
 

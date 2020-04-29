@@ -7,6 +7,7 @@ import {
   CardMedia,
   Button,
   Typography,
+  Link,
 } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -18,17 +19,23 @@ const useStyles = makeStyles(() => ({
 
 const ProjectCard = (props) => {
   const classes = useStyles();
-  const { projectImgSrc, projectTitle, projectDescription } = props;
+  const {
+    projectImgSrc,
+    projectImgAlt,
+    projectTitle,
+    projectDescription,
+    projectLink,
+  } = props;
 
   return (
     <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
           component="img"
-          alt="Contemplative Reptile"
+          alt={projectImgAlt}
           height="140"
           image={projectImgSrc}
-          title="Contemplative Reptile"
+          title={projectTitle}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
@@ -40,12 +47,17 @@ const ProjectCard = (props) => {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
-        </Button>
+        <Link
+          href={projectLink}
+          target="_blank"
+          rel="noopener"
+          rel="noreferrer"
+          underline="none"
+        >
+          <Button variant="contained" color="primary" fullWidth>
+            Go to project website
+          </Button>
+        </Link>
       </CardActions>
     </Card>
   );
