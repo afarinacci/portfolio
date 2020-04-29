@@ -41,11 +41,14 @@ const Content = () => {
         </Grid>
         <Grid item container spacing={2} direction="column">
           <Grid item>
-            <Typography variant="body1">Phone: (614) 316-0750</Typography>
+            <Typography variant="body1">
+              <span style={{ fontWeight: 'bold' }}>Tel:</span> (614) 316-0750
+            </Typography>
           </Grid>
           <Grid item>
             <Typography variant="body1">
-              Email: afarinac.14@gmail.com
+              <span style={{ fontWeight: 'bold' }}>Email:</span>{' '}
+              afarinac.14@gmail.com
             </Typography>
           </Grid>
         </Grid>

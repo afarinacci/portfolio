@@ -15,7 +15,7 @@ const Content = () => {
       <Grid item>
         <Typography variant="h3">About</Typography>
       </Grid>
-      <Grid item container spacing={2} id="about" direction="column">
+      <Grid item container spacing={2} direction="column">
         <Grid item>
           <Typography class={classes.typographyStyles}>
             Andrea M. Farinacci

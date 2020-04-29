@@ -33,7 +33,7 @@ const ProjectCard = (props) => {
         <CardMedia
           component="img"
           alt={projectImgAlt}
-          height="140"
+          height="160"
           image={projectImgSrc}
           title={projectTitle}
         />

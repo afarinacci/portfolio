@@ -49,8 +49,9 @@ function App() {
           justify="flex-end"
           alignItems="center"
         >
-          <Typography color="secondary">Dark Mode: </Typography>
+          <Typography color="primary">Dark Mode: </Typography>
           <Switch
+            color="primary"
             checked={darkMode}
             onChange={() => setDarkMode(!darkMode)}
           ></Switch>
