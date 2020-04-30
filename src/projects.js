@@ -29,8 +29,8 @@ export default [
   {
     projectImgSrc:
       'https://lh3.googleusercontent.com/1hzc64GkT4vhe65HoK8QngA-1Yjs92IZc3V221AeT1I4TBRC8kUOQZCqKQGV7rO8z2RwVnW7SmkeEuA-OTv6qDdPHtkTaKtVagMK3G3kz9VjbvFA03iTQtOWRHfuuPT_idLwIDbDE2c=w2400',
-    projectTitle: 'Nasdaq Stock Price Checker',
-    projectImgAlt: 'Nasdaq Stock Price Checker Website',
+    projectTitle: 'Stock Price Checker',
+    projectImgAlt: 'Stock Price Checker Website',
     projectDescription:
       'An API for checking Nasdaq stock prices, with the ability to add and compare likes. Built with with Node.js, Express and MongoDB.',
     projectLink: 'https://stock-price-checker-am.glitch.me/',
@@ -63,53 +63,67 @@ export default [
     projectLink: 'https://codepen.io/afarinacci/full/YzPRKgo',
   },
   {
-    projectImgSrc: '',
+    projectImgSrc:
+      'https://lh3.googleusercontent.com/bbeM3I8ooSk_CgwAZbkoju8NH0Y-r1Mqv95Hfep64krQ1yfeSgVer-prhNKnOoOvkNU6vGCZJTOzFhH9THEcyJAIx6WpfCCcCLhYzyLuY5u6h1HnpTvOnaYFbYxsRxyiq6F734vq_V0=w2400',
     projectTitle: 'API Issue Tracker',
-    projectImgAlt: '',
-    projectDescription: '',
-    projectLink: '',
+    projectImgAlt: 'Issue Tracker Website',
+    projectDescription:
+      'A RESTful CRUD API for tracking issues. Built with with Node.js, Express and MongoDB.',
+    projectLink: 'https://api-issue-tracker-amf.glitch.me/',
   },
   {
-    projectImgSrc: '',
+    projectImgSrc:
+      'https://lh3.googleusercontent.com/V7lxtL750CI5ouVhNBtcBAPh4zxVZMfkTwL7jv3uhqCN-TJNDQeFd8pIQtXzS6Wm8faVz5wtUq5RScbco5gFuCUkj2uBl-WYNaqoljJBbcwzGvfJ4dk_5lXhUmS-rIEeL5C1gqirK4w=w2400',
     projectTitle: 'Metric-Imperial Converter',
-    projectImgAlt: '',
-    projectDescription: '',
-    projectLink: '',
+    projectImgAlt: 'Metric-Imperial Converter Website',
+    projectDescription:
+      'A metric-imperial measurement converter built with Express.',
+    projectLink: 'https://metric-converter-amf.glitch.me/',
   },
   {
-    projectImgSrc: '',
+    projectImgSrc:
+      'https://lh3.googleusercontent.com/VfyrBV1wZmNkwr1Amkii7bSEsMhXd54WQW_Ug_P4C4FE_TKZ-29UHBW4EpYkrpTAfgA0LupijxIqQwKNSezAPk861zpu0lVfuNVpVkLai5re-mgT_a_IdpnmFL1u5_I0Nyveayx-4hQ=w2400',
     projectTitle: 'Socket IO Chatroom',
-    projectImgAlt: '',
-    projectDescription: '',
-    projectLink: '',
+    projectImgAlt: 'Socket IO Chatroom Website',
+    projectDescription:
+      'A socket.io chatroom with social authentication. Built with with Node.js, Express and MongoDB.',
+    projectLink: 'https://socket-0ath-app.glitch.me/',
   },
   {
-    projectImgSrc: '',
-    projectTitle: 'File Metadata',
-    projectImgAlt: '',
-    projectDescription: '',
-    projectLink: '',
+    projectImgSrc:
+      'https://lh3.googleusercontent.com/rhAKdBmkwAzTGtsj5fgtXFnWUnQlwtP5ofBVK8vccwwkMHq7o4G6R2R8J5n_YKraqMkMk3a6AkFQPp0s2moE6Yrptn1bdfVCjk22xrCgk3gKSF-chYUwZtfA85O1sM2qmub1fFiMFJk=w2400',
+    projectTitle: 'File Metadata Microservice',
+    projectImgAlt: 'File Metadata Microservice Website',
+    projectDescription:
+      'A file metadata microservice built with Node.js, Express and Multer middleware.',
+    projectLink: 'https://file-metadata-amf.glitch.me/',
   },
   {
-    projectImgSrc: '',
-    projectTitle: 'URL Shortener',
-    projectImgAlt: '',
-    projectDescription: '',
-    projectLink: '',
+    projectImgSrc:
+      'https://lh3.googleusercontent.com/vkluPHeDngvyC--r1W1xzTVI9hb3H367qKGW_NimoOWs4z1iIfhf1ksgxTbBgmewx0fFmm9d0Z0oAjUXEwu2DJjLizjOp0-A-hEOzKCkFTvCh2ulFnljcxSzxtCs_9w6-CDffql_HfM=w2400',
+    projectTitle: 'URL Shortener Microservice',
+    projectImgAlt: 'URL Shortener Website',
+    projectDescription:
+      'A URL shortener microservice. Built with Express and MongoDB.',
+    projectLink: 'https://url-shortener-amf.glitch.me',
   },
   {
-    projectImgSrc: '',
+    projectImgSrc:
+      'https://lh3.googleusercontent.com/CJRVHtCcZYlltzTcwFx6bPRePhsmp0KcQ1wBGvqqNIiKfeWFkoioz62E6hQe-g7iVkjF9k2Se1CquxlfWJjiwJbxjap9IAvGa-D2CiZQwwCZlHOtgsrLFfRcUS-vcyDEftCthdr0s9U=w2400',
     projectTitle: 'Exercise Tracker',
-    projectImgAlt: '',
-    projectDescription: '',
-    projectLink: '',
+    projectImgAlt: 'Exercise Tracker Website',
+    projectDescription:
+      'An Exercise Tracker REST API. Built with Express and MongoDB.',
+    projectLink: 'https://mern-exercise-tracker-amf.glitch.me',
   },
   {
-    projectImgSrc: '',
+    projectImgSrc:
+      'https://lh3.googleusercontent.com/3P_kI6zaV8LYijY29Lwk9iS_csH6YQ2kyu2lqeB53btCPPu7vF7uebrlkoIczz0ZkO00fFk6c-16xi_3bESpd90vRyeLXif0IUDAz6XZBWV4MDHet1vDTiv4Kw0-HbUfSY7ljW1gJY4=w2400',
     projectTitle: 'Social Login',
-    projectImgAlt: '',
-    projectDescription: '',
-    projectLink: '',
+    projectImgAlt: 'Social Login Website',
+    projectDescription:
+      'An example website with Github social login. Built with Node.js, Express, Passport.js, and MongoDB.',
+    projectLink: 'https://passport-oath-github-app.glitch.me/',
   },
   {
     projectImgSrc:
@@ -117,21 +131,25 @@ export default [
     projectTitle: 'Drum Machine',
     projectImgAlt: 'Drum Machine Website',
     projectDescription:
-      'A drum machine that works with the keyboard. Built with JavaScript and styled with Bootstrap',
+      'A drum machine that works with keypress events. Built with JavaScript and styled with Bootstrap',
     projectLink: 'https://codepen.io/afarinacci/full/KKwxYyK',
   },
   {
-    projectImgSrc: '',
+    projectImgSrc:
+      'https://lh3.googleusercontent.com/b94gUk6R9LxDDcLZLifP1AXQcAcJ3Idh41w4n0U9sjm5DEbejp122h8frGOlxfyUhgZT2-Os2bJ-bbbgBjdbogXZtIvETWUJm3KFy0FsOs32MvnLK6T9blkxVcwtGC8lX6JHM1NaAWg=w2400',
     projectTitle: 'Markdown Previewer',
-    projectImgAlt: '',
-    projectDescription: '',
+    projectImgAlt: 'Markdown Previewer Website',
+    projectDescription:
+      'A Markdown previewer built with React and styled with Bootstrap.',
     projectLink: 'https://codepen.io/afarinacci/full/vYEajWQ',
   },
   {
-    projectImgSrc: '',
+    projectImgSrc:
+      'https://lh3.googleusercontent.com/f8cWV701OBoq0OJ1DJXqJZz-TXg3uQv-llLfl2IuGDuqeR1ifwyluTF1Fc2My2TMGiiUJ_S13y-6e1cpQbqnZUtqnVzD8KyRQuHaFictIO0LDnbKku0JSSKtHYMyEhET3ztLM3H74p4=w2400',
     projectTitle: 'Random Quote Machine',
-    projectImgAlt: '',
-    projectDescription: '',
+    projectImgAlt: 'Random Quote Machine Website',
+    projectDescription:
+      'A random quote generator with click to Tweet. Built with React and styled with Bootstrap.',
     projectLink: 'https://codepen.io/afarinacci/full/QWwrWXE',
   },
   {

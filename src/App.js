@@ -49,7 +49,9 @@ function App() {
           justify="flex-end"
           alignItems="center"
         >
-          <Typography color="primary">Dark Mode: </Typography>
+          <Typography color="primary" variant="body1">
+            Dark Mode:{' '}
+          </Typography>
           <Switch
             color="primary"
             checked={darkMode}

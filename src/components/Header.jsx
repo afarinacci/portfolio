@@ -71,9 +71,7 @@ const Header = () => {
             Contact
           </MenuItem>
         </Menu>
-        <Typography variant="h6" className={classes.title}>
-          Andrea M. Farinacci
-        </Typography>
+        <Typography variant="h6" className={classes.title}></Typography>
         <Link
           href="https://www.linkedin.com/in/afarinacci14/"
           target="_blank"
