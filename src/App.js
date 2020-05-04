@@ -1,12 +1,21 @@
 import React, { useState } from 'react';
 import './App.scss';
+import PropTypes from 'prop-types';
 
 import {
   makeStyles,
   createMuiTheme,
   ThemeProvider,
 } from '@material-ui/core/styles';
-import { Switch, Grid, Typography, CssBaseline } from '@material-ui/core';
+import {
+  Switch,
+  Grid,
+  Typography,
+  CssBaseline,
+  useScrollTrigger,
+  Toolbar,
+  Container,
+} from '@material-ui/core';
 
 import Header from './components/Header';
 import Content from './components/Content';
@@ -28,40 +37,34 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-
-      <Grid
-        container
-        direction="column"
-        className="App"
-        style={{ overflowX: 'hidden' }}
-      >
-        <Grid item>
-          <Header />
-        </Grid>
-        <Grid
-          item
-          container
-          direction="row"
-          justify="flex-end"
-          alignItems="center"
-        >
-          <Typography color="primary" variant="body1">
-            Dark Mode:{' '}
-          </Typography>
-          <Switch
-            color="primary"
-            checked={darkMode}
-            onChange={() => setDarkMode(!darkMode)}
-          ></Switch>
-        </Grid>
-        <Grid item container>
-          <Grid item xs={1} sm={2} />
-          <Grid item xs={10} sm={8}>
-            <Content />
+      <Header />
+      <Container style={{ overflowX: 'hidden', marginBottom: '60px' }}>
+        <Grid container direction="column" className="App">
+          <Grid
+            item
+            container
+            direction="row"
+            justify="flex-end"
+            alignItems="center"
+          >
+            <Typography color="primary" variant="body1">
+              Dark Mode:{' '}
+            </Typography>
+            <Switch
+              color="primary"
+              checked={darkMode}
+              onChange={() => setDarkMode(!darkMode)}
+            ></Switch>
           </Grid>
-          <Grid item xs={false} sm={2} />
+          <Grid item container>
+            <Grid item xs={false} sm={2} />
+            <Grid item xs={12} sm={8}>
+              <Content />
+            </Grid>
+            <Grid item xs={false} sm={2} />
+          </Grid>
         </Grid>
-      </Grid>
+      </Container>
     </ThemeProvider>
   );
 }
