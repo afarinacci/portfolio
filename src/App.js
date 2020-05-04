@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
 import './App.scss';
 
 import {
@@ -7,21 +6,13 @@ import {
   createMuiTheme,
   ThemeProvider,
 } from '@material-ui/core/styles';
-import Container from '@material-ui/core/Container';
-import {
-  Switch,
-  Button,
-  Paper,
-  Grid,
-  Typography,
-  CssBaseline,
-} from '@material-ui/core';
+import { Switch, Grid, Typography, CssBaseline } from '@material-ui/core';
 
 import Header from './components/Header';
 import Content from './components/Content';
 
 const useStyles = makeStyles({
-  helloThereStyle: {
+  boldText: {
     fontWeight: 'bold',
   },
 });
@@ -59,8 +50,8 @@ function App() {
           ></Switch>
         </Grid>
         <Grid item container>
-          <Grid item xs={false} sm={2} />
-          <Grid item xs={12} sm={8}>
+          <Grid item xs={1} sm={2} />
+          <Grid item xs={10} sm={8}>
             <Content />
           </Grid>
           <Grid item xs={false} sm={2} />

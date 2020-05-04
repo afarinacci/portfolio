@@ -75,8 +75,7 @@ const Header = () => {
         <Link
           href="https://www.linkedin.com/in/afarinacci14/"
           target="_blank"
-          rel="noopener"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <IconButton style={{ color: 'white' }}>
             <LinkedInIcon fontSize="large" />
@@ -85,8 +84,7 @@ const Header = () => {
         <Link
           href="https://github.com/afarinacci"
           target="_blank"
-          rel="noopener"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <IconButton style={{ color: 'white' }}>
             <GitHubIcon fontSize="large" />

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Grid, Paper } from '@material-ui/core';
+import { Typography, Grid, Link } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import ProjectCard from './ProjectCard';
 import projectList from './../projects';
@@ -27,7 +27,14 @@ const Content = () => {
       <Grid item id="about">
         <About />
       </Grid>
-      <Grid item container spacing={4} direction="column" id="projects">
+      <Grid
+        item
+        container
+        spacing={4}
+        direction="column"
+        id="projects"
+        align="center"
+      >
         <Grid item>
           <Typography variant="h3">Projects</Typography>
         </Grid>
@@ -36,19 +43,29 @@ const Content = () => {
         </Grid>
       </Grid>
       <Grid item container spacing={4} direction="column" id="contact">
-        <Grid item>
+        <Grid item align="center">
           <Typography variant="h3">Contact</Typography>
         </Grid>
-        <Grid item container spacing={2} direction="column">
+        <Grid item container spacing={2} direction="row" justify="space-evenly">
           <Grid item>
             <Typography variant="body1">
-              <span style={{ fontWeight: 'bold' }}>Tel:</span> (614) 316-0750
+              <span style={{ fontWeight: 'bold' }}>Email:</span>{' '}
+              <Link
+                href="mailto:afarinac.14@gmail.com"
+                underline="none"
+                color="secondary"
+              >
+                afarinac.14@gmail.com
+              </Link>
             </Typography>
           </Grid>
           <Grid item>
             <Typography variant="body1">
-              <span style={{ fontWeight: 'bold' }}>Email:</span>{' '}
-              afarinac.14@gmail.com
+              <span style={{ fontWeight: 'bold' }}>Tel:</span>
+              <Link href="tel:614-316-0750" underline="none" color="secondary">
+                {' '}
+                (614) 316-0750
+              </Link>
             </Typography>
           </Grid>
         </Grid>

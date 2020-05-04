@@ -1,16 +1,16 @@
 export default [
   {
     projectImgSrc:
-      'https://lh3.googleusercontent.com/-r7ZeAe3xO0_TfSnt8IRP91p_MUWXS61aEEgYsSEFug8hungUYg6Q_k_Qb8_ftPrdQFuFWzhLyENeor9cvUbggRlOKudvsUpb-AjJZbDlcf6EBdUqoGM3TO47iJhFWylueXYM7Hl-bc=w2400',
+      'https://lh3.googleusercontent.com/6Oa0OJkoRhrnqMAJ4z7VDjnDOLgOL99B-vaIm8eHFuTuAqs81bGoGZd5ekVZRGBmxKhLDtHiIJW_YFd2MbZBHiBMxX3jdEVi_hL1Gw1NIMNDvj2FssIPPa2J_1p8_WCXLe97z9GGZlU=w2400',
     projectTitle: 'Center for Better Learning',
     projectImgAlt: 'Center for Better Learning Website',
     projectDescription:
-      'A informational website for a local business built with Create React App. Styled with Bootstrap',
+      'A informational website for a local business built with Create React App. Styled with Bootstrap.',
     projectLink: 'https://www.centerforbetterlearning.com',
   },
   {
     projectImgSrc:
-      'https://lh3.googleusercontent.com/OUse2sCFmG1BV-QZ7mXHAvKbNwAlwOPNC2uOr5n0aR8ezAxWfVg05ASJ-2rlsdNxfYLsb4UR-GXbTrQmNkNC3b_b8RjVxc132dFR7lFdLlBmwzx7krzYfQd3XYoubMkMKdvLs89J-k4=w2400',
+      'https://lh3.googleusercontent.com/dnZsNaMdzy2jeB09rRdMyoc__Fm_zIB9SbQ06EwfBBETAOvPdX5SMTd2JNIk6cTSu4GeUMTHsQmXctk-VrbyR8awFRCE36q-JvSODHIXjd4T3E9QEVvuFmn6AdpXPZghNlcSCqCNzMA=w2400',
     projectTitle: 'My Wedding Website',
     projectImgAlt: 'My Wedding Website',
     projectDescription:

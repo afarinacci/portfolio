@@ -8,8 +8,10 @@ import {
   Button,
   Typography,
   Link,
+  Grid,
 } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
+import OpenInNewIcon from '@material-ui/icons/OpenInNew';
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -47,17 +49,20 @@ const ProjectCard = (props) => {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Link
-          href={projectLink}
-          target="_blank"
-          rel="noopener"
-          rel="noreferrer"
-          underline="none"
-        >
-          <Button variant="contained" color="primary" fullWidth>
-            Go to project website
-          </Button>
-        </Link>
+        <Grid container direction="column" justify="center">
+          <Grid item>
+            <Link
+              href={projectLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              underline="none"
+            >
+              <Button color="primary" endIcon={<OpenInNewIcon />}>
+                view project
+              </Button>
+            </Link>
+          </Grid>
+        </Grid>
       </CardActions>
     </Card>
   );
