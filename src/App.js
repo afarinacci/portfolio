@@ -29,7 +29,12 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
 
-      <Grid container direction="column" className="App">
+      <Grid
+        container
+        direction="column"
+        className="App"
+        style={{ overflowX: 'hidden' }}
+      >
         <Grid item>
           <Header />
         </Grid>

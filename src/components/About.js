@@ -20,22 +20,15 @@ const Content = () => {
   const classes = useStyles();
   return (
     <Grid container spacing={4} direction="column" align="center">
-      <Grid
-        item
-        container
-        spacing={6}
-        direction="row"
-        justify="flex-start"
-        alignItems="center"
-      >
-        <Grid item>
+      <Grid item container spacing={6} direction="row" alignItems="center">
+        <Grid item xs={12} md={6}>
           <img
             src={photoSrc}
             className={classes.myImg}
             alt="Andrea Farinacci"
           />
         </Grid>
-        <Grid item align="left">
+        <Grid item xs={12} md={6} align="left">
           <Typography color="secondary" variant="h4">
             Andrea M. Farinacci
           </Typography>
