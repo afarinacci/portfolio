@@ -160,8 +160,8 @@ const Content = () => {
             React, Express, Sass, Material UI, Bootstrap, Bulma, D3.js
           </Typography>
           <Typography variant="body1">
-            <span style={{ fontWeight: 'bold' }}>Other:</span> Node.js, Git &
-            GitHub, RESTful APIs, JSON
+            <span style={{ fontWeight: 'bold' }}>Other:</span> Node.js, Git
+            &amp; GitHub, RESTful APIs, JSON, MongoDB
           </Typography>
         </Grid>
         <br />
