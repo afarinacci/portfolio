@@ -161,7 +161,7 @@ const Content = () => {
           </Typography>
           <Typography variant="body1">
             <span style={{ fontWeight: 'bold' }}>Other:</span> Node.js, Git
-            &amp; GitHub, microservices, REST, MongoDB, SQL
+            &amp; GitHub, RESTful APIs, MongoDB, SQL
           </Typography>
         </Grid>
         <br />
