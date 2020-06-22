@@ -1,6 +1,14 @@
 export default [
   {
     projectImgSrc:
+      'https://lh3.googleusercontent.com/ZtEsR8UhHwHUdhvA8cMwTesI2X2az0e7UaibZe2cTHq-dYZiaduLlN2jifX4zbD9rVC9xabBnLIRKxFXF3gLaHEKovlMi8lVJ-4gTXyzg4SlG-cLZIYIce2kUrrzwj6Z6q7JFdWeqcQ=w2400',
+    projectTitle: 'Spotify Playlist Creator',
+    projectImgAlt: 'Spotify Playlist Creator Website',
+    projectDescription: 'A react web application integrated with Spotify APIs.',
+    projectLink: 'https://jammming-andreafarinacci.surge.sh/',
+  },
+  {
+    projectImgSrc:
       'https://lh3.googleusercontent.com/6Oa0OJkoRhrnqMAJ4z7VDjnDOLgOL99B-vaIm8eHFuTuAqs81bGoGZd5ekVZRGBmxKhLDtHiIJW_YFd2MbZBHiBMxX3jdEVi_hL1Gw1NIMNDvj2FssIPPa2J_1p8_WCXLe97z9GGZlU=w2400',
     projectTitle: 'Center for Better Learning',
     projectImgAlt: 'Center for Better Learning Website',
