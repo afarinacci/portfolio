@@ -4,11 +4,13 @@ export default [
       'https://lh3.googleusercontent.com/ZtEsR8UhHwHUdhvA8cMwTesI2X2az0e7UaibZe2cTHq-dYZiaduLlN2jifX4zbD9rVC9xabBnLIRKxFXF3gLaHEKovlMi8lVJ-4gTXyzg4SlG-cLZIYIce2kUrrzwj6Z6q7JFdWeqcQ=w2400',
     projectTitle: 'Spotify Playlist Creator',
     projectImgAlt: 'Spotify Playlist Creator Website',
-    projectDescription: 'A react web application integrated with the Spotify API. Users can create a new playlist and add it their Spotify account.',
+    projectDescription:
+      'A react web application integrated with the Spotify API. Users can create a new playlist and add it their Spotify account.',
     projectLink: 'https://jammming-andreafarinacci.surge.sh/',
   },
   {
-    projectImgSrc: 'https://lh3.googleusercontent.com/Rv3-yDY63ZwocvDb1Lb-Hip5ujKW4e3n83LRS0a4-lbgFgcm2KFMocD5fW2tU2v6LdPApcva3EMvxqq-lmutXZIuqLb_wSh8rjoQSVmIPcTknFXhqneeocqG8RSejCYAdfsX0dgDwUY=w2400'
+    projectImgSrc:
+      'https://lh3.googleusercontent.com/Rv3-yDY63ZwocvDb1Lb-Hip5ujKW4e3n83LRS0a4-lbgFgcm2KFMocD5fW2tU2v6LdPApcva3EMvxqq-lmutXZIuqLb_wSh8rjoQSVmIPcTknFXhqneeocqG8RSejCYAdfsX0dgDwUY=w2400',
     projectTitle: 'Business Finder',
     projectImgAlt: 'Business Finder Website',
     projectDescription: 'A react web application integrated with the Yelp API.',
