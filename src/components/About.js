@@ -192,7 +192,7 @@ const Content = () => {
           <Typography variant="body1">
             <ul>
               <li>
-                Designed and developed centerforbetterlearning.com to the
+                Solely designed and developed centerforbetterlearning.com to the
                 business owner’s specifications as a React single page
                 application
               </li>
@@ -226,18 +226,19 @@ const Content = () => {
           <Typography variant="body1">
             <ul>
               <li>
-                Aggregated marketing performance data from over 30 sources into
-                comprehensive monthly and weekly reports for the executive team
+                Created Tranzact’s first comprehensive marketing report in Excel
+                by aggregating current and historical marketing performance data
+                from over 30 digital and direct marketing channels with sales
+                data into monthly and weekly reports for the executive team
               </li>
               <li>
-                Managed Search and Display advertising for
+                Managed all Search and Display advertising campaigns for
                 medicaresupplement.com, Tranzact’s largest account
               </li>
               <li>
-                Completed a comprehensive business case for the introduction of
-                an organic content website into Tranzact’s portfolio; Work
-                included competitive analysis, financial modeling, and pitching
-                the case to senior management
+                Used Google Analytics, Google Tag Manager, and A/B testing of
+                landing pages to optimize conversion rate in acquiring health
+                and life insurance leads
               </li>
             </ul>
           </Typography>
@@ -268,9 +269,12 @@ const Content = () => {
               <li>
                 Worked with a team to implement and manage digital campaigns
                 with a focus on search and display advertising, such as Google
-                Adwords and The Trade Desk
+                Adwords and Criteo
               </li>
-              <li>Led a new marketing campaign for Aetna cancer insurance</li>
+              <li>
+                Led a new digital marketing campaign for Aetna cancer insurance
+                with a goal to drive leads and increase brand visibility
+              </li>
               <li>
                 Doubled daily paid search lead volume for Mutual of Omaha life
                 insurance with strategic campaign adjustments
