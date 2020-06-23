@@ -10,10 +10,11 @@ export default [
   },
   {
     projectImgSrc:
-      'https://lh3.googleusercontent.com/Rv3-yDY63ZwocvDb1Lb-Hip5ujKW4e3n83LRS0a4-lbgFgcm2KFMocD5fW2tU2v6LdPApcva3EMvxqq-lmutXZIuqLb_wSh8rjoQSVmIPcTknFXhqneeocqG8RSejCYAdfsX0dgDwUY=w2400',
+      'https://lh3.googleusercontent.com/z1JmN8df62Dzyft9ENSTVtyOmQHQiUDzt-EcM-RFibXF_umGxbQy2XeqcnNt8NJGZ6gQjGc2agTvFM5zg3ionLj67nGPlS3cJTeXcKFut5rYo0Sq8RywYn25xXbNV2Tl4IPYS05wfpY=w2400',
     projectTitle: 'Business Finder',
     projectImgAlt: 'Business Finder Website',
-    projectDescription: 'A react web application integrated with the Yelp API.',
+    projectDescription:
+      'A react web application integrated with the Yelp API. Users can search for businesses in specific locations and sort the results.',
     projectLink: 'https://ravenous-andreafarinacci.surge.sh/',
   },
   {
