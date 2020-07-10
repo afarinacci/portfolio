@@ -14,7 +14,7 @@ export default [
     projectTitle: 'Minion Work Management App',
     projectImgAlt: 'Minion Work Management App',
     projectDescription:
-      'An internal management application for minions called Boss Machine. Users can CRUD minions, ideas, meetings, and work in a SQLite database from the front end via an API.',
+      'An internal management application for minions called Boss Machine built with Express. Users can CRUD minions, ideas, meetings, and work in a SQLite database from the front end via an API.',
     projectLink: 'https://github.com/afarinacci/boss-machine',
   },
   {
