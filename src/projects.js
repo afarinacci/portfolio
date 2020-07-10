@@ -1,6 +1,24 @@
 export default [
   {
     projectImgSrc:
+      'https://lh3.googleusercontent.com/35xcHYoiTzsSfXYgwfYnCceB57Wa5ETKOy6l19BURnYxKOJoNJXDZqZ-WqiY7qhk3x-2RfMKTFQguy_tfNiU0P-Opjcs8QwhWBcnkQcfjGpCzBOKuvNc6hzutOu2_WmEdYC6M8GA1LA=w2400',
+    projectTitle: 'Internal Publishing House App',
+    projectImgAlt: 'Internal Publishing House App',
+    projectDescription:
+      'An internal tool for a comic book publishing company built with Express. Users can CRUD artists, series, and issues in a SQLite database from the front-end via an API.',
+    projectLink: 'https://github.com/afarinacci/x-press-publishing',
+  },
+  {
+    projectImgSrc:
+      'https://lh3.googleusercontent.com/j43TlnletdSM5BIPMhk-kqHjpvpgUQTHMAVqJ1eyYnNEJHVe5bnUyIc2rel5u4hJG1FWsEBMQyDfPHO4MCuFoYdOcVUFAaEOdNadHtq8AblwL1IUpErjpY_rtFJGqcPBlYvlWyXs21I=w2400',
+    projectTitle: 'Minion Work Management App',
+    projectImgAlt: 'Minion Work Management App',
+    projectDescription:
+      'An internal management application for minions called Boss Machine. Users can CRUD minions, ideas, meetings, and work in a SQLite database from the front end via an API.',
+    projectLink: 'https://github.com/afarinacci/boss-machine',
+  },
+  {
+    projectImgSrc:
       'https://lh3.googleusercontent.com/ZtEsR8UhHwHUdhvA8cMwTesI2X2az0e7UaibZe2cTHq-dYZiaduLlN2jifX4zbD9rVC9xabBnLIRKxFXF3gLaHEKovlMi8lVJ-4gTXyzg4SlG-cLZIYIce2kUrrzwj6Z6q7JFdWeqcQ=w2400',
     projectTitle: 'Spotify Playlist Creator',
     projectImgAlt: 'Spotify Playlist Creator Website',

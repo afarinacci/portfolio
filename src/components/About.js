@@ -194,7 +194,7 @@ const Content = () => {
               <li>
                 Solely designed and developed centerforbetterlearning.com to the
                 business owner’s specifications as a React single page
-                application
+                application with a headless CMS for content management
               </li>
               <li>
                 Implemented a mobile-first, responsive user interface using
