@@ -32,13 +32,20 @@ const ProjectCard = (props) => {
   return (
     <Card className={classes.root}>
       <CardActionArea>
-        <CardMedia
-          component="img"
-          alt={projectImgAlt}
-          height="160"
-          image={projectImgSrc}
-          title={projectTitle}
-        />
+        <Link
+          href={projectLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          underline="none"
+        >
+          <CardMedia
+            component="img"
+            alt={projectImgAlt}
+            height="160"
+            image={projectImgSrc}
+            title={projectTitle}
+          />
+        </Link>
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
             {projectTitle}
