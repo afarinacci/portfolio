@@ -106,6 +106,29 @@ const Content = () => {
             <Grid item>
               <Typography variant="body1">
                 <Link
+                  href="https://www.codecademy.com/profiles/afarinac"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  underline="none"
+                  color="secondary"
+                >
+                  Codecademy Web Development Career Path Certification
+                </Link>
+              </Typography>
+            </Grid>
+            <Grid item>
+              <Typography variant="body1">July 2020</Typography>
+            </Grid>
+          </Grid>
+          <Grid
+            container
+            direction="row"
+            justify="space-between"
+            alignItems="flex-start"
+          >
+            <Grid item>
+              <Typography variant="body1">
+                <Link
                   href="https://www.freecodecamp.org/certification/afarinac/full-stack"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -157,11 +180,11 @@ const Content = () => {
             <span style={{ fontWeight: 'bold' }}>
               Frameworks &amp; Libraries:
             </span>{' '}
-            React, Express, Sass, Material UI, Bootstrap, Bulma, D3.js
+            React, Express, Sass, Material UI, Bootstrap, Bulma, D3.js, Mocha
           </Typography>
           <Typography variant="body1">
             <span style={{ fontWeight: 'bold' }}>Other:</span> Node.js, Git
-            &amp; GitHub, RESTful APIs, MongoDB, SQL
+            &amp; GitHub, RESTful APIs, MongoDB, SQL, SQLite
           </Typography>
         </Grid>
         <br />
