@@ -36,6 +36,17 @@ const Content = () => {
           <Typography variant="body1">afarinac.14@gmail.com</Typography>
           <Typography variant="body1">(614) 316-0750</Typography>
           <Typography variant="body1">Houston, TX</Typography>
+          <Typography variant="body1">
+            <Link
+              href="https://github.com/afarinacci"
+              target="_blank"
+              rel="noopener noreferrer"
+              underline="none"
+              color="secondary"
+            >
+              Github Profile
+            </Link>
+          </Typography>
         </Grid>
       </Grid>
 
