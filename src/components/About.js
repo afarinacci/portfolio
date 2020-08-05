@@ -173,8 +173,8 @@ const Content = () => {
             Technical Skills
           </Typography>
           <Typography variant="body1">
-            <span style={{ fontWeight: 'bold' }}>Languages:</span> JavaScript,
-            HTML5, CSS3
+            <span style={{ fontWeight: 'bold' }}>Languages:</span> Java,
+            JavaScript, HTML5, CSS3
           </Typography>
           <Typography variant="body1">
             <span style={{ fontWeight: 'bold' }}>
