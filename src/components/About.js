@@ -13,7 +13,8 @@ const useStyles = makeStyles(() => ({
     borderRadius: '50%',
   },
 }));
-const photoSrc = 'https://photos.app.goo.gl/4VZrQuvBkKXR72dE9';
+const photoSrc =
+  'https://lh3.googleusercontent.com/wjWDp2XiN0svOeNQb_YdkhV2ys8c8-dOtUvo0_t-d88k5vBElXccYRWOPdFmY9-Q9rrR589vl-Bdzh5zvdmha7ejsl6NJb04SnuOXdLNolO3ZIzp1n6y6r8lZrAHF31evJcajfk2PcU=w2400';
 
 const Content = () => {
   const classes = useStyles();
