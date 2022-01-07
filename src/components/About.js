@@ -14,7 +14,7 @@ const useStyles = makeStyles(() => ({
   },
 }));
 const photoSrc =
-  'https://lh3.googleusercontent.com/lN6raZOdenBpg0YPTIu79y8ucMd98ngQ9ipHntr1d8NLdw05ee-k8Oq2e_XXlonHAccg8IZRptwdl-UhhhjAPLdYKwzmdtJRFrxzBM2hMg_queTLNrTQOgXJ9HzaNYg4rwi4Ia-f44o=w2400';
+  'https://photos.google.com/share/AF1QipPEEyZT8S8l4eEzCs1iPDTswm4E9sMaJfrQ7L_OFT3EXA1XGe8uSoZwxC81Wv-fwQ/photo/AF1QipM8kWjBlGDB1Giqs8ppkT3S_YjwwEUVBTuSjEK3?key=M0Y0YmhBX3A0LUl0OHJwdFBNZDhxR1dkc1I3UEln';
 
 const Content = () => {
   const classes = useStyles();
