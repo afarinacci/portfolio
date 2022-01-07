@@ -184,8 +184,8 @@ const Content = () => {
             Technical Skills
           </Typography>
           <Typography variant="body1">
-            <span style={{ fontWeight: 'bold' }}>Languages:</span> Java,
-            JavaScript, HTML5, CSS3
+            <span style={{ fontWeight: 'bold' }}>Languages:</span> JavaScript,
+            HTML5, CSS3
           </Typography>
           <Typography variant="body1">
             <span style={{ fontWeight: 'bold' }}>
@@ -203,6 +203,48 @@ const Content = () => {
           <Typography color="primary" variant="h5">
             Work Experience
           </Typography>
+          <Typography variant="h6">Three Ships</Typography>
+          <Grid
+            container
+            direction="row"
+            justify="space-between"
+            alignItems="flex-start"
+          >
+            <Grid item>
+              <Typography variant="body1">
+                <span style={{ fontWeight: 'bold' }}>Senior Associate</span>
+              </Typography>
+            </Grid>
+            <Grid item>
+              <Typography variant="body1">
+                September 2020 – November 2021
+              </Typography>
+            </Grid>
+          </Grid>
+          <Typography variant="body1">
+            <ul>
+              <li>
+                Managed the PPC strategy for Three Ship’s largest P&amp;L in the
+                home services space with over $2m in SEM spend per month
+              </li>
+              <li>
+                Responsible for identifying, testing, and analyzing new growth
+                opportunities in Google and Microsoft Ads and scaling successful
+                learnings
+              </li>
+              <li>
+                Maintained various marketing dashboards, set annual KPIs, and
+                reported out to the company
+              </li>
+              <li>
+                Created a launch strategy and led a small team of writers and
+                editors in content production for the Amazon Onsite Associates
+                program for a partner brand. Performed data analyses to select
+                keywords and prioritize article optimizations.
+              </li>
+            </ul>
+          </Typography>
+          <br />
           <Typography variant="h6">Center for Better Learning</Typography>
           <Grid
             container
